@@ -2,7 +2,7 @@ name: push_to_azure_storage
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - 'dtmi/**/*.json'
 
